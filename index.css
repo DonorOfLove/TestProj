@@ -1,0 +1,52 @@
+* {
+    color: white;
+    font-family: Calibri;
+}
+
+body {
+    background: #191920;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+
+#upload {
+    margin: 20px auto;
+}
+
+#btn {
+    width: 20px;
+    margin: 0 auto;
+    background: #55ba55;
+    text-align: center;
+    padding: 0;
+}
+
+.header {
+    text-transform: uppercase;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar {
+    width: 200px
+}
+
+.block {
+    margin: 20px 0 ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+form input{
+    margin-top: 20px;
+}
